@@ -1873,14 +1873,9 @@ a:focus, a:hover {
 }
 
 .user-login .block .content .logo {
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
-@media (max-width: 992px) {
-  .user-login .block .content .logo {
-    margin-bottom: 40px;
-  }
-}
 
 .user-login .block .content .title-text {
   margin-bottom: 35px;
@@ -1986,5 +1981,15 @@ a:focus, a:hover {
   height: 400px;
   width: 100%;
 }
+.center-thin {
+  width: 450px;
+  margin: auto;
+}
+
+.section-login {
+  padding: 40px 0;
+}
+
+
 
 /*# sourceMappingURL=maps/style.css.map */
